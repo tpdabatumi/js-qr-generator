@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "QR Generator",
+  "version": "1.0",
+  "description": "Generates QRs for Free. Service is provided by Tourism Product Development Agency. Developed by Lasha Kajaia",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://infoajara.com/*"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
